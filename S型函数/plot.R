@@ -1,0 +1,6 @@
+## sigmoid(x)
+plot(function(x){return (1 / (1 + exp(-x)))},xlim = c(-10,10))
+## softmax(x)
+plot(function(x){e = exp(x); return (e / sum(e))},xlim = c(-10,10))
+## tanh(x)
+plot(function(x){tanh(x)},xlim = c(-10,10))
